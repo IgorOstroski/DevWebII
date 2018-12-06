@@ -1,0 +1,18 @@
+<DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+
+    <head>
+        <title>Rango</title>
+    </head>
+
+    <body>
+        <h1>Teste página About</h1>
+        Recebendo mensagem: <strong>{{ text }}</strong><br />
+        <a href="/rango/">Voltando para o Index</a><br />
+        <a href="/rango/outra_view">Outra view</a><br />
+        <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
+    </body>
+
+</html>
